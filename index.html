@@ -9,6 +9,9 @@
 <meta property="og:description" content="기획부터 운영, 리포팅까지. 행사의 전 과정을 한 팀이 책임집니다.">
 <meta property="og:type" content="website">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -18,7 +21,7 @@
   <div class="wrap nav-in">
     <a class="brand" href="#top">
       <span class="mark">R</span>
-      <span>로켓 매드 토들러</span>
+      <span class="brand-txt">로켓 매드 토들러</span>
     </a>
     <nav class="nav-links">
       <a href="#about">회사소개</a>
@@ -32,23 +35,31 @@
 
 <main id="top">
 
-  <!-- ===== HERO ===== -->
+  <!-- ===== HERO : 사선으로 잘린 다크 면 + 큐비즘 조각 ===== -->
   <section class="hero">
+    <div class="frags" aria-hidden="true">
+      <i class="f1"></i><i class="f2"></i><i class="f3"></i><i class="f4"></i>
+    </div>
     <div class="wrap hero-in">
-      <p class="kicker">Total MICE Agency · Since 2016</p>
-      <h1>행사를 <em>설계</em>하고,<br>실행하고, 증명합니다</h1>
+      <p class="kicker">ROCKET MAD TODDLER — TOTAL MICE AGENCY</p>
+      <h1 class="h-frag">
+        <span>행사를 설계하고,</span>
+        <span>실행하고, 증명합니다</span>
+      </h1>
       <p class="sub">회의 · 전시 · 이벤트 · 인센티브까지.
         로켓 매드 토들러는 기업 MICE의 전 과정을 한 팀이 끝까지 책임집니다.</p>
       <div class="btns">
         <a class="btn primary" href="#contact">프로젝트 문의</a>
         <a class="btn ghost" href="#services">서비스 보기</a>
       </div>
+    </div>
 
+    <div class="wrap">
       <div class="stats">
-        <div><b>320<small>+</small></b><span>누적 행사 수행</span></div>
-        <div><b>12<small>만명</small></b><span>연간 참가자</span></div>
-        <div><b>48<small>개국</small></b><span>글로벌 파트너</span></div>
-        <div><b>98<small>%</small></b><span>재계약률</span></div>
+        <div><b>320</b><span>누적 행사 수행</span></div>
+        <div><b>12만</b><span>연간 참가자</span></div>
+        <div><b>48</b><span>개국 파트너</span></div>
+        <div><b>98%</b><span>재계약률</span></div>
       </div>
     </div>
   </section>
@@ -57,7 +68,7 @@
   <section class="sec" id="about">
     <div class="wrap sec-head">
       <span class="eyebrow">About us</span>
-      <h2>행사는 한 번뿐입니다.<br>그래서 준비된 팀이 필요합니다.</h2>
+      <h2><span class="tilt-l">행사는</span> <span class="tilt-r">한 번뿐입니다.</span><br>그래서 준비된 팀이 필요합니다.</h2>
       <p class="lead">로켓 매드 토들러는 2016년 설립 이후 국제회의, 전시·박람회,
         기업 이벤트, 인센티브 프로그램을 기획·운영해 온 종합 MICE 대행사입니다.
         기획사와 운영사를 나누지 않고 <strong>한 팀이 처음부터 끝까지</strong> 맡습니다.
@@ -81,7 +92,7 @@
   </section>
 
   <!-- ===== SERVICES ===== -->
-  <section class="sec alt" id="services">
+  <section class="sec tinted" id="services">
     <div class="wrap">
       <div class="sec-head">
         <span class="eyebrow">Services</span>
@@ -91,6 +102,7 @@
 
       <div class="grid">
         <article class="svc">
+          <span class="svc-no">01</span>
           <div class="ico">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
               <rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/>
@@ -102,6 +114,7 @@
         </article>
 
         <article class="svc">
+          <span class="svc-no">02</span>
           <div class="ico">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
               <rect x="3" y="4" width="8" height="7"/><rect x="13" y="4" width="8" height="7"/>
@@ -114,6 +127,7 @@
         </article>
 
         <article class="svc">
+          <span class="svc-no">03</span>
           <div class="ico">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
               <path d="M12 3v4"/><path d="M12 17v4"/><path d="M3 12h4"/><path d="M17 12h4"/>
@@ -126,6 +140,7 @@
         </article>
 
         <article class="svc">
+          <span class="svc-no">04</span>
           <div class="ico">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/>
@@ -160,7 +175,7 @@
   </section>
 
   <!-- ===== WORK ===== -->
-  <section class="sec alt" id="work">
+  <section class="sec" id="work">
     <div class="wrap">
       <div class="sec-head">
         <span class="eyebrow">Track record</span>
@@ -188,28 +203,25 @@
     </div>
   </section>
 
-  <!-- ===== CONTACT ===== -->
-  <section class="sec" id="contact">
-    <div class="wrap">
-      <div class="contact">
-        <div class="contact-text">
-          <span class="eyebrow light">Contact</span>
-          <h2>행사 계획이 있으시면<br>먼저 이야기해 주세요</h2>
-          <p>일정과 규모만 알려주셔도 대략적인 방향과 예산을 정리해 드립니다.
-             견적은 무료입니다.</p>
+  <!-- ===== CONTACT : 위쪽이 사선으로 잘린 다크 밴드 ===== -->
+  <section class="contact-band" id="contact">
+    <div class="wrap contact">
+      <div class="contact-text">
+        <span class="eyebrow">Contact</span>
+        <h2><span class="tilt-l">행사 계획이</span> <span class="tilt-r">있으시면</span><br>먼저 이야기해 주세요</h2>
+        <p>일정과 규모만 알려주셔도 대략적인 방향과 예산을 정리해 드립니다. 견적은 무료입니다.</p>
+      </div>
+      <div class="contact-card">
+        <a class="crow" href="mailto:hello@rocketmadtoddler.com">
+          <span>Email</span><b>hello@rocketmadtoddler.com</b>
+        </a>
+        <a class="crow" href="tel:+82200000000">
+          <span>Tel</span><b>02-0000-0000</b>
+        </a>
+        <div class="crow static">
+          <span>Office</span><b>서울특별시 ○○구 ○○로 00, 8층</b>
         </div>
-        <div class="contact-card">
-          <a class="crow" href="mailto:hello@rocketmadtoddler.com">
-            <span>Email</span><b>hello@rocketmadtoddler.com</b>
-          </a>
-          <a class="crow" href="tel:+82200000000">
-            <span>Tel</span><b>02-0000-0000</b>
-          </a>
-          <div class="crow static">
-            <span>Office</span><b>서울특별시 ○○구 ○○로 00, 8층</b>
-          </div>
-          <a class="btn primary full" href="mailto:hello@rocketmadtoddler.com">프로젝트 문의하기</a>
-        </div>
+        <a class="btn primary full" href="mailto:hello@rocketmadtoddler.com">프로젝트 문의하기</a>
       </div>
     </div>
   </section>
